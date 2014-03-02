@@ -1,0 +1,5 @@
+== README
+
+Curso de Rails de ASPgems
+
+Solución al primer ejercicio
