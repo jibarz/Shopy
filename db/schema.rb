@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140316214404) do
+ActiveRecord::Schema.define(version: 20140322124015) do
 
   create_table "line_items", force: true do |t|
     t.integer  "product_id"
@@ -44,6 +44,8 @@ ActiveRecord::Schema.define(version: 20140316214404) do
     t.float    "stock"
     t.datetime "updated_at"
     t.string   "category"
+    t.string   "photo"
+    t.decimal  "price",        precision: 10, scale: 0
   end
 
 end
