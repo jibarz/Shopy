@@ -30,5 +30,16 @@
   <%= @order.customer_surname %>
 </p>
 
+<div class="Line Items">
+	<h2>Line Items</h2>
+	<table>
+	  <tr>
+	    <th>Product</th>
+	    <th>Unit price</th>
+	    <th>Quantity</th>
+	  </tr>
+	  <%= render @order.line_items %>
+	</table> 
+</div>
 <%= link_to 'Edit', edit_order_path(@order) %> |
 <%= link_to 'Back', orders_path %>

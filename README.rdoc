@@ -2,4 +2,4 @@
 
 Curso de Rails de ASPgems
 
-Solución al tercer ejercicio
+Solución al ejercicio
